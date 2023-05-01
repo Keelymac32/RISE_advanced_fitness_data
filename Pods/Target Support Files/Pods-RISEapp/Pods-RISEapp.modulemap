@@ -1,0 +1,6 @@
+framework module Pods_RISEapp {
+  umbrella header "Pods-RISEapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

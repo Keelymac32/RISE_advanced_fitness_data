@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0F59A7BBEC62E239B288B2 /* Pods_RISEapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABEC5C9E7CC3A4308C94AA5 /* Pods_RISEapp.framework */; };
+		BB28E64B29AC634D001816CD /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB28E64A29AC634D001816CD /* DB.swift */; };
+		BB53074C2901060F006DE467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB53074A2901060F006DE467 /* Main.storyboard */; };
+		BB5C99C22914B01E0037C6FA /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C99C12914B01E0037C6FA /* Extras.swift */; };
+		BB781DFC2942434300C713FF /* SleepQualityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB781DFB2942434300C713FF /* SleepQualityViewController.swift */; };
+		BB896DEB29269C9E00BB5F67 /* IntensityCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB896DEA29269C9E00BB5F67 /* IntensityCalc.swift */; };
+		BB97C6D529568EEF00946B0D /* WorkoutTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB97C6D429568EEF00946B0D /* WorkoutTypes.swift */; };
+		BB97C6D92967C97500946B0D /* RecoveryCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB97C6D82967C97500946B0D /* RecoveryCalc.swift */; };
+		BB97C6DB29691EEC00946B0D /* SleepHoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB97C6DA29691EEC00946B0D /* SleepHoursViewController.swift */; };
+		BB9E7BCE291A138E00648FC2 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E7BCD291A138E00648FC2 /* AlertViewController.swift */; };
+		BBAC9291299DDFEC00D37EB2 /* StrainElevation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC9290299DDFEC00D37EB2 /* StrainElevation.swift */; };
+		BBB7864029EF8B7B00F2491B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB7863E29EF8B6500F2491B /* libsqlite3.0.tbd */; };
+		BBB7864129EF8B8500F2491B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB7863F29EF8B6500F2491B /* libsqlite3.tbd */; };
+		BBB7864329F0E09F00F2491B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB7864229F0E09F00F2491B /* HealthKit.framework */; };
+		BBBE65E02900FC75009807B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE65DF2900FC75009807B0 /* AppDelegate.swift */; };
+		BBBE65E22900FC75009807B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE65E12900FC75009807B0 /* SceneDelegate.swift */; };
+		BBBE65E42900FC75009807B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE65E32900FC75009807B0 /* ViewController.swift */; };
+		BBBE65E92900FC75009807B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBE65E82900FC75009807B0 /* Assets.xcassets */; };
+		BBBE65EC2900FC75009807B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBE65EA2900FC75009807B0 /* LaunchScreen.storyboard */; };
+		BBBE660329010152009807B0 /* IntensityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE660229010152009807B0 /* IntensityViewController.swift */; };
+		BBBE660529010173009807B0 /* RecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE660429010173009807B0 /* RecoveryViewController.swift */; };
+		BBBE6609290101A5009807B0 /* StrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE6608290101A5009807B0 /* StrainViewController.swift */; };
+		BBBE660B290101BA009807B0 /* EvaluationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE660A290101BA009807B0 /* EvaluationViewController.swift */; };
+		BBE552F429426C6C00D2AF9F /* Apparat-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = BBE552F329426C6C00D2AF9F /* Apparat-Heavy.otf */; };
+		BBE552F729426DFF00D2AF9F /* Apparat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BBE552F629426DFF00D2AF9F /* Apparat-Light.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B84EA04D44E6611BE66D949 /* Pods-RISEapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RISEapp.release.xcconfig"; path = "Target Support Files/Pods-RISEapp/Pods-RISEapp.release.xcconfig"; sourceTree = "<group>"; };
+		AABEC5C9E7CC3A4308C94AA5 /* Pods_RISEapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RISEapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB28E64A29AC634D001816CD /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		BB53074B2901060F006DE467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB5C99C12914B01E0037C6FA /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+		BB781DFB2942434300C713FF /* SleepQualityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepQualityViewController.swift; sourceTree = "<group>"; };
+		BB896DEA29269C9E00BB5F67 /* IntensityCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntensityCalc.swift; sourceTree = "<group>"; };
+		BB97C6D429568EEF00946B0D /* WorkoutTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTypes.swift; sourceTree = "<group>"; };
+		BB97C6D82967C97500946B0D /* RecoveryCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryCalc.swift; sourceTree = "<group>"; };
+		BB97C6DA29691EEC00946B0D /* SleepHoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepHoursViewController.swift; sourceTree = "<group>"; };
+		BB9E7BCD291A138E00648FC2 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		BBAC9290299DDFEC00D37EB2 /* StrainElevation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrainElevation.swift; sourceTree = "<group>"; };
+		BBB7863E29EF8B6500F2491B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		BBB7863F29EF8B6500F2491B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BBB7864229F0E09F00F2491B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		BBBE65DC2900FC75009807B0 /* RISEapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RISEapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBE65DF2900FC75009807B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBBE65E12900FC75009807B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BBBE65E32900FC75009807B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBBE65E82900FC75009807B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBBE65EB2900FC75009807B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBBE65ED2900FC75009807B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBBE65F62900FF76009807B0 /* RISEapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RISEapp.entitlements; sourceTree = "<group>"; };
+		BBBE660229010152009807B0 /* IntensityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntensityViewController.swift; sourceTree = "<group>"; };
+		BBBE660429010173009807B0 /* RecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryViewController.swift; sourceTree = "<group>"; };
+		BBBE6608290101A5009807B0 /* StrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrainViewController.swift; sourceTree = "<group>"; };
+		BBBE660A290101BA009807B0 /* EvaluationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluationViewController.swift; sourceTree = "<group>"; };
+		BBE552F329426C6C00D2AF9F /* Apparat-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apparat-Heavy.otf"; sourceTree = "<group>"; };
+		BBE552F629426DFF00D2AF9F /* Apparat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apparat-Light.otf"; sourceTree = "<group>"; };
+		FB9720F1074D1BB834A2F103 /* Pods-RISEapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RISEapp.debug.xcconfig"; path = "Target Support Files/Pods-RISEapp/Pods-RISEapp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBBE65D92900FC75009807B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB7864129EF8B8500F2491B /* libsqlite3.tbd in Frameworks */,
+				BBB7864329F0E09F00F2491B /* HealthKit.framework in Frameworks */,
+				BBB7864029EF8B7B00F2491B /* libsqlite3.0.tbd in Frameworks */,
+				2C0F59A7BBEC62E239B288B2 /* Pods_RISEapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038C9A3D194604F6F5C2FE09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB9720F1074D1BB834A2F103 /* Pods-RISEapp.debug.xcconfig */,
+				7B84EA04D44E6611BE66D949 /* Pods-RISEapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		38F12225399F7172896EB477 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBB7864229F0E09F00F2491B /* HealthKit.framework */,
+				BBB7863E29EF8B6500F2491B /* libsqlite3.0.tbd */,
+				BBB7863F29EF8B6500F2491B /* libsqlite3.tbd */,
+				AABEC5C9E7CC3A4308C94AA5 /* Pods_RISEapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBBE65D32900FC75009807B0 = {
+			isa = PBXGroup;
+			children = (
+				BBBE65DE2900FC75009807B0 /* RISEapp */,
+				BBBE65DD2900FC75009807B0 /* Products */,
+				038C9A3D194604F6F5C2FE09 /* Pods */,
+				38F12225399F7172896EB477 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBBE65DD2900FC75009807B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBBE65DC2900FC75009807B0 /* RISEapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBBE65DE2900FC75009807B0 /* RISEapp */ = {
+			isa = PBXGroup;
+			children = (
+				BBBE65F62900FF76009807B0 /* RISEapp.entitlements */,
+				BBBE65DF2900FC75009807B0 /* AppDelegate.swift */,
+				BBBE65E12900FC75009807B0 /* SceneDelegate.swift */,
+				BBBE65E32900FC75009807B0 /* ViewController.swift */,
+				BB896DEA29269C9E00BB5F67 /* IntensityCalc.swift */,
+				BBAC9290299DDFEC00D37EB2 /* StrainElevation.swift */,
+				BB97C6D429568EEF00946B0D /* WorkoutTypes.swift */,
+				BB97C6D82967C97500946B0D /* RecoveryCalc.swift */,
+				BB28E64A29AC634D001816CD /* DB.swift */,
+				BB5C99C12914B01E0037C6FA /* Extras.swift */,
+				BBE552F529426C7100D2AF9F /* Fonts */,
+				BBBE65F72900FFD0009807B0 /* Tab Controllers */,
+				BBBE65E82900FC75009807B0 /* Assets.xcassets */,
+				BBBE65EA2900FC75009807B0 /* LaunchScreen.storyboard */,
+				BBBE65ED2900FC75009807B0 /* Info.plist */,
+			);
+			path = RISEapp;
+			sourceTree = "<group>";
+		};
+		BBBE65F72900FFD0009807B0 /* Tab Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBBE660429010173009807B0 /* RecoveryViewController.swift */,
+				BBBE660229010152009807B0 /* IntensityViewController.swift */,
+				BBBE6608290101A5009807B0 /* StrainViewController.swift */,
+				BBBE660A290101BA009807B0 /* EvaluationViewController.swift */,
+				BB9E7BCD291A138E00648FC2 /* AlertViewController.swift */,
+				BB781DFB2942434300C713FF /* SleepQualityViewController.swift */,
+				BB97C6DA29691EEC00946B0D /* SleepHoursViewController.swift */,
+				BB53074A2901060F006DE467 /* Main.storyboard */,
+			);
+			path = "Tab Controllers";
+			sourceTree = "<group>";
+		};
+		BBE552F529426C7100D2AF9F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BBE552F329426C6C00D2AF9F /* Apparat-Heavy.otf */,
+				BBE552F629426DFF00D2AF9F /* Apparat-Light.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBBE65DB2900FC75009807B0 /* RISEapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBE65F02900FC75009807B0 /* Build configuration list for PBXNativeTarget "RISEapp" */;
+			buildPhases = (
+				2C9B930A31D0010501DD16A6 /* [CP] Check Pods Manifest.lock */,
+				BBBE65D82900FC75009807B0 /* Sources */,
+				BBBE65D92900FC75009807B0 /* Frameworks */,
+				BBBE65DA2900FC75009807B0 /* Resources */,
+				77E0064B363598155A4AD1C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RISEapp;
+			productName = RISEapp;
+			productReference = BBBE65DC2900FC75009807B0 /* RISEapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBBE65D42900FC75009807B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BBBE65DB2900FC75009807B0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BBBE65D72900FC75009807B0 /* Build configuration list for PBXProject "RISEapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBBE65D32900FC75009807B0;
+			productRefGroup = BBBE65DD2900FC75009807B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBBE65DB2900FC75009807B0 /* RISEapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBBE65DA2900FC75009807B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE552F729426DFF00D2AF9F /* Apparat-Light.otf in Resources */,
+				BB53074C2901060F006DE467 /* Main.storyboard in Resources */,
+				BBBE65EC2900FC75009807B0 /* LaunchScreen.storyboard in Resources */,
+				BBBE65E92900FC75009807B0 /* Assets.xcassets in Resources */,
+				BBE552F429426C6C00D2AF9F /* Apparat-Heavy.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C9B930A31D0010501DD16A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RISEapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E0064B363598155A4AD1C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RISEapp/Pods-RISEapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RISEapp/Pods-RISEapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RISEapp/Pods-RISEapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBBE65D82900FC75009807B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBE660B290101BA009807B0 /* EvaluationViewController.swift in Sources */,
+				BBAC9291299DDFEC00D37EB2 /* StrainElevation.swift in Sources */,
+				BB97C6D92967C97500946B0D /* RecoveryCalc.swift in Sources */,
+				BB97C6D529568EEF00946B0D /* WorkoutTypes.swift in Sources */,
+				BBBE6609290101A5009807B0 /* StrainViewController.swift in Sources */,
+				BBBE660529010173009807B0 /* RecoveryViewController.swift in Sources */,
+				BB781DFC2942434300C713FF /* SleepQualityViewController.swift in Sources */,
+				BB9E7BCE291A138E00648FC2 /* AlertViewController.swift in Sources */,
+				BBBE660329010152009807B0 /* IntensityViewController.swift in Sources */,
+				BB28E64B29AC634D001816CD /* DB.swift in Sources */,
+				BBBE65E42900FC75009807B0 /* ViewController.swift in Sources */,
+				BBBE65E02900FC75009807B0 /* AppDelegate.swift in Sources */,
+				BB97C6DB29691EEC00946B0D /* SleepHoursViewController.swift in Sources */,
+				BB5C99C22914B01E0037C6FA /* Extras.swift in Sources */,
+				BB896DEB29269C9E00BB5F67 /* IntensityCalc.swift in Sources */,
+				BBBE65E22900FC75009807B0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB53074A2901060F006DE467 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB53074B2901060F006DE467 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBBE65EA2900FC75009807B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBBE65EB2900FC75009807B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBBE65EE2900FC75009807B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBBE65EF2900FC75009807B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBBE65F12900FC75009807B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB9720F1074D1BB834A2F103 /* Pods-RISEapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RISEapp/RISEapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RLL239B2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RISEapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RISE;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keelynmcnamara.RISEapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BBBE65F22900FC75009807B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B84EA04D44E6611BE66D949 /* Pods-RISEapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RISEapp/RISEapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RLL239B2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RISEapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RISE;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keelynmcnamara.RISEapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBBE65D72900FC75009807B0 /* Build configuration list for PBXProject "RISEapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBE65EE2900FC75009807B0 /* Debug */,
+				BBBE65EF2900FC75009807B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBBE65F02900FC75009807B0 /* Build configuration list for PBXNativeTarget "RISEapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBE65F12900FC75009807B0 /* Debug */,
+				BBBE65F22900FC75009807B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBBE65D42900FC75009807B0 /* Project object */;
+}
